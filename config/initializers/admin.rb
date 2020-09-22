@@ -1,4 +1,4 @@
 Rails.configuration.admin = {
-  :name => ENV['USERNAME'],
+  :username => ENV['USERNAME'],
   :password => ENV['PASSWORD']
 } 
