@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def create
     user = User.find_by_email(user_params[:email])
-    puts '.....................................', params, user 
     if !user
       user = User.new(user_params)
     
